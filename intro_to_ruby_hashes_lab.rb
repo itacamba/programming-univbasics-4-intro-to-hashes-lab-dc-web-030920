@@ -24,7 +24,7 @@ end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  my_key = key.fetch(:key)
+  my_key = key.fetch(:my_key)
   my_hash = { my_key => value}
   p my_hash
 end
