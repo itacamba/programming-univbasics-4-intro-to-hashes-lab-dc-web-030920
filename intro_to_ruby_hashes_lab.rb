@@ -1,6 +1,6 @@
 def new_hash
   # return an empty hash
-  my_hash = Hash.new
+  my_hash = { name: "Lucille", job_description: "Programmer"}
   p my_hash
 end
 
