@@ -1,11 +1,13 @@
 def new_hash
   # return an empty hash
-  my_hash = { name: "Lucille", job_description: "Programmer"}
+  my_hash = {}
   p my_hash
 end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
+  my_hash = { name: "Lucille", job_description: "Programmer"}
+  p my_hash
 end
 
 def pioneer
