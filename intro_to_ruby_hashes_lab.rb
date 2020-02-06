@@ -43,7 +43,7 @@ def update_counting_hash(hash, key)
   else
     hash[key] = 1
   end
-  my_hash = hash[key]
+  my_hash = {hash[key]}
   p my_hash
 
 end
