@@ -18,6 +18,8 @@ end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
+  random_id = { :id => Math.random()}
+  p random_id
 end
 
 def my_hash_creator(key, value)
