@@ -30,6 +30,8 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
+  the_value_is = hash[key]
+  p the_value_is
 end
 
 def update_counting_hash(hash, key)
