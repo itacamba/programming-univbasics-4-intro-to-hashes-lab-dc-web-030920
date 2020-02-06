@@ -22,9 +22,9 @@ def id_generator
   p random_id
 end
 
-def my_hash_creator(key:, value)
+def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  my_hash = { key: value}
+  my_hash = { "#{key:}" value}
   p my_hash
 end
 
